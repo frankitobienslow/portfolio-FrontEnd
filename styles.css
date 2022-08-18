@@ -1,0 +1,210 @@
+#header {
+    background-image: linear-gradient(to right, rgb(57, 91, 204) 0%, rgb(0, 29, 126) 100%);
+    max-height: 100%;
+    box-shadow: -1px 0px 14px 4px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: -1px 0px 14px 4px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 0px 14px 4px rgba(0, 0, 0, 0.29);
+    overflow: hidden;
+}
+
+#nombre {
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 170%;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+.subtitulo {
+    font-size: 300%;
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #000000;
+}
+
+.subtitulo2 {
+    font-size: 120%;
+    color: #ffffff;
+
+}
+
+.subtitulo3 {
+    font-size: 100%;
+    color: #ffffff;
+    font-weight: thin;
+    font-style: italic;
+}
+.tituloSkill{
+    font-size:30px;
+}
+
+#profilePicture {
+    border-radius: 50%;
+    outline: 4px solid rgb(255, 255, 255);
+    width: 15%;
+    height: 15%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+    margin-right: 2%;
+    margin-left: -2.4%;
+}
+
+#fotoYNombre {
+    display: inline-flex;
+}
+
+body {
+    background: url(resources/fondo.jpg);
+    position: absolute;
+}
+
+.cardClass {
+    max-width: 99%;
+    margin: 1%;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    box-shadow: -1px 0px 14px 4px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: -1px 0px 14px 4px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 0px 14px 4px rgba(0, 0, 0, 0.29);
+    outline: 0px;
+
+}
+
+.cardBlueHeader {
+    background-image: linear-gradient(to right, rgb(57, 91, 204) 0%, rgb(0, 29, 126) 100%);
+}
+
+.cardGreenHeader {
+    background-image: linear-gradient(to right, rgb(110, 204, 118) 0%, rgb(42, 133, 42) 100%);
+}
+
+.cardPurpleHeader {
+    background-image: linear-gradient(to right, rgb(179, 84, 235) 0%, rgb(107, 15, 160) 100%);
+}
+
+.cardOrangeHeader {
+    background-image: linear-gradient(to right, rgb(255, 149, 61) 0%, rgb(255, 94, 0) 100%);
+}
+
+.cardBrownHeader {
+    background-image: linear-gradient(to right, rgb(185, 147, 103) 0%, rgb(117, 78, 42) 100%);
+}
+
+.cardDangerHeader {
+    color: #ffd900;
+    background-image: linear-gradient(to right, rgb(92, 91, 92) 0%, rgb(36, 36, 36) 100%);
+}
+
+.githubLink {
+    color: #ffd900;
+}
+
+.githubLink:hover {
+    color: #ff9100;
+}
+
+.cardTitle {
+    font-size: 150%;
+    padding-top: 0.4%;
+}
+
+.blueBody {
+    background-color: rgb(88, 117, 212);
+
+}
+
+.skillsBody {
+    background-image: linear-gradient(to right, rgb(156, 216, 160) 0%, rgb(253, 194, 106) 50%, rgb(253, 194, 106) 70%, rgb(214, 148, 235) 100%);
+
+}
+
+.purpleBody {
+    background-color: rgb(214, 148, 235);
+}
+
+.orangeBody{
+    background-color: rgb(253, 194, 106);
+}
+.brownBody {
+    background-color: rgb(199, 178, 155);
+}
+
+.dangerBody {
+    background: repeating-linear-gradient(-45deg,
+            #ffd900,
+            #ffd900 20px,
+            #252525 20px,
+            #252525 40px);
+
+}
+
+.barraTexto {
+    font-size: 200%;
+}
+
+#progressBar {
+    height: 32px;
+    background-color: #465c47;
+}
+
+#progressBarContainer {
+    padding: 1%;
+}
+
+.skillImg {
+    max-width: 75px;
+    height: auto;
+}
+.skillText{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.worker {
+    width: 50%;
+    height: auto;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.iconLink {
+    width: 50px;
+}
+
+.iconLink:hover {
+    filter:brightness(110%);
+}
+
+.icon2 {
+    width: 50px;
+}
+.icon2:hover{
+filter: invert(100%);
+}
+.megafon {
+    width: 15%;
+}
+.list-group-item{
+    background: transparent;
+}
+.expDiv{
+    width: 50%;
+}
+.itemMenu{
+margin-top:-9px;
+margin-bottom:-9px;
+}
+.linkMenu{
+    color:#fff;
+    text-decoration: none;
+}
+.linkMenu:hover{
+    color:rgb(0, 214, 230);
+}

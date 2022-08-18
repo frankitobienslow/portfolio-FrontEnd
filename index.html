@@ -1,12 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Francisco Insua</title>
+    <!-- Bootstrap CSS -->
+    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Local Styles -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hola Putines</h1>
+    <!-- Bootstrap JS -->
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid" id="header">
+            <div class="flex-row d-sm-flex align-items-sm-center justify-content-between">
+
+                <div class="p-2" id="fotoYNombre">
+                    <img src="resources/franciscoIMG.PNG" alt="imagenPerfil" class="img-fluid align-self-center"
+                        id="profilePicture">
+                    <h1 id="nombre" class="align-self-center">Francisco Insua</h1>
+                </div>
+                <div class="p-2">
+                    <h2 class="titulo text-nowrap align-self-start">Full Stack Developer Jr.</h2>
+                </div>
+                <div class="p-2"style="margin-left:150px;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item itemMenu"><a href="#quiensoy" class="linkMenu">¿Quién soy?</a></li>
+                        <li class="list-group-item itemMenu"><a href="#formacion" class="linkMenu">Formación</a></li>
+                        <li class="list-group-item itemMenu"><a href="#expLaboral" class="linkMenu">Experiencia</a></li>
+                        <li class="list-group-item itemMenu"><a href="#proyectos" class="linkMenu">Proyectos</a></li>
+                        <li class="list-group-item itemMenu"><a href="#contacto" class="linkMenu">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="card mx-auto cardClass">
+        <div class="card-header cardBlueHeader">
+            <h6 class="cardTitle" id="quiensoy">¿Quién soy?</h6>
+        </div>
+        <div class="card-body blueBody">
+            <p class="card-text">Apasionado desde siempre por la computacion, de niño llené de virus la computadora
+                de mis
+                abuelos en reiteradas ocasiones por intentar descargar juegos de páginas de dudosa procedencia y
+                dándole "OK" a todo en sus instaladores maliciosos.<br>
+                A los 12 heredé la vieja PC de mi tío y luego de unos años emprendí para actualizarla,
+                comprando componentes usados por internet para luego revenderlos y así al cabo de un tiempo, de
+                aquella
+                vieja computadora sólo quedó el gabinete. No será la mas nueva ni la mas potente pero mi querida
+                <i>Frankestein</i> es la que uso a día de hoy.<br>
+                En el camino del aficionado surgieron diversos inconvenientes que, luego de tantos dolores de
+                cabeza,
+                logré solucionar documentándome y aprendiendo por mis propios medios.<br>
+                Hoy en día me encuentro estudiando la Tecnicatura Universitaria en Desarrollo Web en la Universidad
+                del
+                Comahue, en Neuquén, mi ciudad.<br>
+                Apunto a incursionar cuanto antes en el mercado laboral. Dispuesto a aprender y a
+                profesionalizarme para así crear las mejores soluciones a los mas complejos problemas.
+            </p>
+        </div>
+    </div>
+    <div class="card mx-auto cardClass">
+        <div class="card-header cardBrownHeader">
+            <h3 class="cardTitle"id="formacion">Formación Académica</h3>
+        </div>
+        <div class="d-sm-flex card-body brownBody">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="subtitulo2"><b>Colegio Don Bosco Neuquén</b> - Bachiller con Orientacion a Medios de
+                        Comunicación <i style="font-size: 80%;">(2015-2019)</i></p>
+                </li>
+                <li class="list-group-item">
+                    <p class="subtitulo2"><b>St. Stephen's Institute</b> - FCE B2 First Certificate in English <i
+                            style="font-size: 80%;">(2011-2019)</i></p>
+                </li>
+                <li class="list-group-item">
+                    <p class="subtitulo2"><b>Universidad Nacional del Comahue</b> - Licenciatura en Ciencias de la
+                        Computación <i style="font-size: 80%;">(2020-presente)</i></p>
+                </li>
+                <li class="list-group-item">
+                    <p class="subtitulo2"><b>Universidad Nacional del Comahue</b> - Tecnicatura Universitaria en
+                        Desarrollo Web <i style="font-size: 80%;">(2022-presente)</i></p>
+                </li>
+                <li class="list-group-item">
+                    <p class="subtitulo2"><b>Argentina Programa</b> - Bootcamp Desarrollador Full Stack Jr. <i
+                            style="font-size: 80%;">(03/2022-01/2023)</i></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="card mx-auto cardClass">
+        <div class="card-header cardOrangeHeader">
+            <h3 class="cardTitle"id="expLaboral">Experiencia Laboral</h3>
+        </div>
+        <div class="flex-row d-sm-flex align-items-sm-start card-body justify-content-sm-between orangeBody">
+            <div class="p-2 expDiv">
+                <h3 class="subtitulo2 text-center card-title">Operador de radio en <img class="megafon"
+                        src="resources/megafon.png" alt=megafon></h3>
+                <p class="text-center subtitulo3 card-subtitle">03/2022-presente</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item subtitulo3">Manejo de consola de operación multicanal</li>
+                    <li class="list-group-item subtitulo3">Streaming con OBS Studio</li>
+                    <li class="list-group-item subtitulo3">Grabación de audio con Audacity</li>
+                    <li class="list-group-item subtitulo3">Limpieza de PC y Notebook</li>
+                    <li class="list-group-item subtitulo3">Asesoramiento de armado</li>
+                </ul>
+            </div>
+            <div class="p-2 expDiv">
+                <h3 class="subtitulo2 text-center card-title" style="padding-top:1.5%;">Servicio Técnico de PC</h3>
+                <p class="text-center card-subtitle subtitulo3" style="padding-top:1.6%;">2018-presente</p>
+                <ul class="list-group list-group-flush" style="padding-top:0.5%;">
+                    <li class="list-group-item subtitulo3">Diagnostico de fallos</li>
+                    <li class="list-group-item subtitulo3">Instalación y activación de Windows y Office</li>
+                    <li class="list-group-item subtitulo3">Armado de PC</li>
+                    <li class="list-group-item subtitulo3">Manipulación de interfaces de audio</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card mx-auto cardClass">
+        <div class="card-header cardGreenHeader">
+            <h3 class="cardTitle"id="skills">Skills</h3>
+        </div>
+        <div class="flex-row d-sm-flex align-items-sm-center justify-content-sm-around skillsBody">
+            <div class="p-2 align-self-center">
+                <h6 class="tituloSkill">FrontEnd</h6>
+            </div>
+            <div class="p-2 align-self-center">
+                <h6 class="tituloSkill">BackEnd</h6>
+            </div>
+            <div class="p-2 align-self-center">
+                <h6 class="tituloSkill">Habilidades blandas</h6>
+            </div>
+            <div class="p-2 align-self-center">
+                <h6 class="tituloSkill">Diseño Grafico</h6>
+            </div>
+        </div>
+        <div class="flex-row d-sm-flex card-body align-items-sm-start justify-content-sm-between skillsBody">
+
+            <div class="flex-column d-sm-flex align-items-sm-start justify-content-sm-start">
+                <div class="p-2 text-left">
+                    <img src="resources/html.png" alt="htmlLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">HTML5</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/css.png" alt="cssLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">CSS</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/js.png" alt="jsLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">JavaScript</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/bootstrap.png" alt="bootstrapLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">Bootstrap</h4>
+                </div>
+            </div>
+            <div class="flex-column d-sm-flex align-items-sm-start justify-content-sm-start">
+                <div class="p-2 text-left">
+                    <img src="resources/node.png" alt="nodeLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">Node.js</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/java.png" alt="javaLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">Java</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/unity.png" alt="unityLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">Unity</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/python.png" alt="pythonLogo" class="img-fluid skillImg">
+                    <h4 class="skillText">Python</h4>
+                </div>
+            </div>
+            <div class="flex-column d-sm-flex align-items-sm-start justify-content-sm-center">
+                <div class="p-2 text-left">
+                    <img src="resources/emoji.png" alt="emoji" class="img-fluid skillImg">
+                    <h4 class="skillText">Buena predisposición</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/aprendizaje.png" alt="aprendizaje" class="img-fluid skillImg">
+                    <h4 class="skillText">Motivado para aprender</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/comunicacion.png" alt="comunicacion" class="img-fluid skillImg">
+                    <h4 class="skillText">Buena comunicacion</h4>
+                </div>
+                <div class="p-2 text-left">
+                    <img src="resources/compañerismo.png" alt="compañerismo" class="img-fluid skillImg">
+                    <h4 class="skillText">Trabajo en equipo</h4>
+                </div>
+            </div>
+            <div class="flex-column d-sm-flex align-items-sm-end justify-content-sm-end">
+                <div class="p-2 text-left">
+                    <h4 class="skillText">Photoshop</h4><img src="resources/ps.png" alt="psLogo"
+                        class="img-fluid skillImg">
+                </div>
+                <div class="p-2 text-left">
+                    <h4 class="skillText">Lightroom</h4><img src="resources/lr.png" alt="lrLogo"
+                        class="img-fluid skillImg">
+                </div>
+                <div class="p-2 text-left">
+                    <h4 class="skillText">Illustrator</h4><img src="resources/ai.png" alt="aiLogo"
+                        class="img-fluid skillImg">
+                </div>
+                <div class="p-2 text-left">
+                    <h4 class="skillText">Premiere</h4><img src="resources/pr.png" alt="prLogo"
+                        class="img-fluid skillImg">
+                </div>
+                <div class="p-2 text-left">
+                    <h4 class="skillText">After Effects</h4><img src="resources/ae.png" alt="aeLogo"
+                        class="img-fluid skillImg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="card mx-auto cardClass">
+        <div class="card-header cardDangerHeader">
+            <h3 class="cardTitle"id="ptoyectos">Proyectos <a class="githubLink" href="https://github.com/frankitobienslow"
+                    target="_blank">Github</a></h3>
+        </div>
+        <div class="card-body dangerBody">
+            <h6 class="card-title subtitulo text-center">WORK IN PROGRESS...</h6>
+            <div class="flex-row d-sm-flex align-items-sm-center justify-content-sm-start">
+                <div class="p-2 text-center">
+                    <img src="resources/worker1.png" alt="worker1" class="worker flip img-fluid">
+                </div>
+                <div class="p-2 text-center">
+                    <img src="resources/worker2.png" alt="worker2" class="worker img-fluid">
+                </div>
+                <div class="p-2 text-center">
+                    <img src="resources/worker3.png" alt="worker3" class="worker flip img-fluid">
+                </div>
+            </div>
+            <div id="progressBarContainer">
+                <div class="progress" id="progressBar">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><i
+                            class="barraTexto">Learning...</i></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="text-center text-lg-start cardBlueHeader">
+        <h3 class="text-center" style="font-size:30px;color:#fff;padding: 2%;"id="contacto">Contacto</h3>
+        <div class="container flex-row d-flex justify-content-sm-around align-items-sm-center py-5">
+            <div class="p-2">
+                <a href="https://www.linkedin.com/in/francisco-insua-47534a243/" class="iconLink" target="_blank"><img
+                        src="resources/linkedin.png" alt="linkedin" class="img-fluid iconLink"></a>
+            </div>
+            <div class="p-2">
+                <a href="mailto:franinsua7@gmail.com" class="iconLink" target="_blank"><img src="resources/mail.png"
+                        alt="mail" class="img-fluid icon2"></a>
+            </div>
+            <div class="p-2">
+                <a href="https://github.com/frankitobienslow" class="iconLink" target="_blank"><img
+                        src="resources/github.png" alt="github" class="img-fluid icon2"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>
